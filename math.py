@@ -1,12 +1,9 @@
 try:
-    num1 = float(input("Enter numerator: "))
-    num2 = float(input("Enter denominator: "))
+    a = float(input("Enter first number: "))
+    b = float(input("Enter second number: "))
 
-    if num2 != 0:
-        result = num1 / num2
-        print("Division result:", result)
-    else:
-        print("Cannot divide by zero!")
+    print(f"Addition of two numbers: {a + b}")
+    print(f"Subtraction of two numbers: {a - b}")
 
 except ValueError:
     print("Please enter valid numbers.")
